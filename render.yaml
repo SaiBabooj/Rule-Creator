@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: rule-creator-api
+    env: python
+    rootDir: "Malware Analysis"
+    buildCommand: "pip install poetry && poetry install --all-extras && cd detectiq/webapp/backend && poetry run python manage.py migrate --noinput"
+    startCommand: "cd detectiq/webapp/backend && poetry run gunicorn detectiq.webapp.backend.wsgi:application --bind 0.0.0.0:$PORT"
+    envVars:
+      - key: DEBUG
+        value: "False"
+      - key: DJANGO_SECRET_KEY
+        generateValue: true
+      - key: OPENAI_API_KEY
+        value: "sk-your-openai-key-here"
+      - key: PYTHON_VERSION
+        value: "3.11.0"
