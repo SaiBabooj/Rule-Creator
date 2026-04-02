@@ -1,0 +1,341 @@
+Starting async ruleset initialization
+Initializing RulesetManager
+Initializing DjangoRuleRepository
+Initialized SigmaLLM with rule directory: /Users/saibabooj/Desktop/DetectIQ/data/rules/sigma
+Initialized SigmaLLM
+Initialized YaraLLM with rule directory: /Users/saibabooj/Desktop/DetectIQ/data/rules/yara
+Initialized YaraLLM
+Initialized SnortLLM with rule directory: /Users/saibabooj/Desktop/DetectIQ/data/rules/snort
+Initialized SnortLLM
+Initializing rule types: sigma, yara, snort
+Clearing sigma rules from database
+Deleted all rules of type sigma
+Successfully cleared rules from database
+Clearing yara rules from database
+Deleted all rules of type yara
+Successfully cleared rules from database
+Clearing snort rules from database
+Deleted all rules of type snort
+Successfully cleared rules from database
+Initializing sigma ruleset
+Updating sigma rules...
+Cleaning sigma rule directory
+Successfully cleaned sigma rule directory
+Saved Detection Rule License to licenses/sigma/drl.md
+Cleaning rule directory
+Successfully cleaned rule directory
+Updated to version r2026-01-01
+Loaded 1378 rules
+Successfully updated and loaded 1378 sigma rules
+Storing 1378 sigma rules in database
+Deleting existing sigma rules from SigmaHQ
+Successfully deleted all sigma rules from source SigmaHQ
+Successfully deleted existing sigma rules from SigmaHQ
+Attempting to save 1378 formatted rules
+Successfully saved 1378 rules to database
+Successfully stored 1378 sigma rules in database
+Creating vector store from documents
+Creating document objects from Sigma rules
+Loaded 1378 rules
+Created 1378 document objects
+Failed to create vector store: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-place******************ting. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}
+Error creating vector store for sigma: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-place******************ting. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}
+Initializing yara ruleset
+Updating yara rules...
+Cleaning yara rule directory
+Successfully cleaned yara rule directory
+Cleaning rule directory
+Downloading rules from https://github.com/YARAHQ/yara-forge/releases/latest/download/yara-forge-rules-core.zip
+YARA license extracted and saved successfully
+Processed 5000/5174 rules
+Successfully saved 5174 valid individual rules
+Updated to version 20260208
+Loaded 5174 individual YARA rules
+Successfully updated and loaded 5174 yara rules
+Storing 5174 yara rules in database
+Deleting existing yara rules from YARA-Forge
+Successfully deleted all yara rules from source YARA-Forge
+Successfully deleted existing yara rules from YARA-Forge
+Attempting to save 5174 formatted rules
+Successfully saved 5174 rules to database
+Successfully stored 5174 yara rules in database
+Creating vector store from documents
+Creating document objects from YARA rules
+Loaded 5174 individual YARA rules
+Created 5174 document objects
+Failed to create vector store: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-place******************ting. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}
+Error creating vector store for yara: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-place******************ting. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}
+Initializing snort ruleset
+Updating snort rules...
+Cleaning snort rule directory
+Successfully cleaned snort rule directory
+Cleaning rule directory
+Successfully cleaned rule directory
+Successfully downloaded Snort rules
+Successfully extracted Snort rules
+Successfully saved rules from snort3-community.rules
+Updated to version a38fb5831d98d910fb79b833314879fa
+Loaded 3413 individual Snort rules
+Successfully updated and loaded 3413 snort rules
+Storing 3413 snort rules in database
+Deleting existing snort rules from Snort3 Community
+Successfully deleted all snort rules from source Snort3 Community
+Successfully deleted existing snort rules from Snort3 Community
+Attempting to save 3413 formatted rules
+Successfully saved 3413 rules to database
+Successfully stored 3413 snort rules in database
+Creating vector store from documents
+Creating document objects from Snort rules
+Loaded 3413 individual Snort rules
+Created 3413 document objects
+Failed to create vector store: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-place******************ting. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}
+Error creating vector store for snort: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-place******************ting. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}
+Successfully initialized rulesets for: sigma, yara, snort
+Starting async ruleset initialization
+Initializing RulesetManager
+Initializing DjangoRuleRepository
+Initialized SigmaLLM with rule directory: /Users/saibabooj/Desktop/DetectIQ/data/rules/sigma
+Initialized SigmaLLM
+Initialized YaraLLM with rule directory: /Users/saibabooj/Desktop/DetectIQ/data/rules/yara
+Initialized YaraLLM
+Initialized SnortLLM with rule directory: /Users/saibabooj/Desktop/DetectIQ/data/rules/snort
+Initialized SnortLLM
+Initializing rule types: sigma, yara
+Clearing sigma rules from database
+Deleted all rules of type sigma
+Successfully cleared rules from database
+Clearing yara rules from database
+Deleted all rules of type yara
+Successfully cleared rules from database
+Initializing sigma ruleset
+Updating sigma rules...
+Cleaning sigma rule directory
+Successfully cleaned sigma rule directory
+Saved Detection Rule License to licenses/sigma/drl.md
+Cleaning rule directory
+Successfully cleaned rule directory
+Updated to version r2026-01-01
+Loaded 1378 rules
+Successfully updated and loaded 1378 sigma rules
+Storing 1378 sigma rules in database
+Deleting existing sigma rules from SigmaHQ
+Successfully deleted all sigma rules from source SigmaHQ
+Successfully deleted existing sigma rules from SigmaHQ
+Attempting to save 1378 formatted rules
+Successfully saved 1378 rules to database
+Successfully stored 1378 sigma rules in database
+Initializing yara ruleset
+Updating yara rules...
+Cleaning yara rule directory
+Successfully cleaned yara rule directory
+Cleaning rule directory
+Downloading rules from https://github.com/YARAHQ/yara-forge/releases/latest/download/yara-forge-rules-core.zip
+YARA license extracted and saved successfully
+Processed 5000/5174 rules
+Successfully saved 5174 valid individual rules
+Updated to version 20260208
+Loaded 5174 individual YARA rules
+Successfully updated and loaded 5174 yara rules
+Storing 5174 yara rules in database
+Deleting existing yara rules from YARA-Forge
+Successfully deleted all yara rules from source YARA-Forge
+Successfully deleted existing yara rules from YARA-Forge
+Attempting to save 5174 formatted rules
+Successfully saved 5174 rules to database
+Successfully stored 5174 yara rules in database
+Successfully initialized rulesets for: sigma, yara
+Starting async ruleset initialization
+Initializing RulesetManager
+Initializing DjangoRuleRepository
+Initialized SigmaLLM with rule directory: /Users/saibabooj/Desktop/DetectIQ/data/rules/sigma
+Initialized SigmaLLM
+Initialized YaraLLM with rule directory: /Users/saibabooj/Desktop/DetectIQ/data/rules/yara
+Initialized YaraLLM
+Initialized SnortLLM with rule directory: /Users/saibabooj/Desktop/DetectIQ/data/rules/snort
+Initialized SnortLLM
+Initializing rule types: snort
+Clearing snort rules from database
+Deleted all rules of type snort
+Successfully cleared rules from database
+Initializing snort ruleset
+Updating snort rules...
+Cleaning snort rule directory
+Successfully cleaned snort rule directory
+Cleaning rule directory
+Successfully cleaned rule directory
+Successfully downloaded Snort rules
+Successfully extracted Snort rules
+Successfully saved rules from snort3-community.rules
+Updated to version a38fb5831d98d910fb79b833314879fa
+Loaded 3413 individual Snort rules
+Successfully updated and loaded 3413 snort rules
+Storing 3413 snort rules in database
+Deleting existing snort rules from Snort3 Community
+Successfully deleted all snort rules from source Snort3 Community
+Successfully deleted existing snort rules from Snort3 Community
+Attempting to save 3413 formatted rules
+Successfully saved 3413 rules to database
+Successfully stored 3413 snort rules in database
+Successfully initialized rulesets for: snort
+Watching for file changes with StatReloader
+Initializing DjangoRuleRepository
+Initializing ConfigManager. Config file: /Users/saibabooj/Desktop/Malware Analysis 2/DetectIQ/config.json
+"GET /rules/?page=1&page_size=10&enabled=true HTTP/1.1" 200 11038
+Initializing DjangoRuleRepository
+Initializing ConfigManager. Config file: /Users/saibabooj/Desktop/Malware Analysis 2/DetectIQ/config.json
+"GET /rules/?page=1&page_size=10&enabled=true HTTP/1.1" 200 11038
+"GET / HTTP/1.1" 200 5226
+"GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+"GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+"GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+"GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+"GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+"GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+"GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+"GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 4315
+Initializing DjangoRuleRepository
+Initializing ConfigManager. Config file: /Users/saibabooj/Desktop/Malware Analysis 2/DetectIQ/config.json
+"GET /rules/?page=1&page_size=10&enabled=true HTTP/1.1" 200 11038
+Initializing DjangoRuleRepository
+Initializing ConfigManager. Config file: /Users/saibabooj/Desktop/Malware Analysis 2/DetectIQ/config.json
+"GET /rules/?page=1&page_size=10&enabled=true HTTP/1.1" 200 11038
+Initializing DjangoRuleRepository
+Initializing ConfigManager. Config file: /Users/saibabooj/Desktop/Malware Analysis 2/DetectIQ/config.json
+"GET /rules/?page=1&page_size=10&enabled=true HTTP/1.1" 200 11038
+Initializing DjangoRuleRepository
+"GET /app-config/get-config/ HTTP/1.1" 200 832
+"GET /app-config/check-vectorstores/ HTTP/1.1" 200 75
+"GET /app-config/check-vectorstores/ HTTP/1.1" 200 75
+Initialized SigmaLLM with rule directory: /Users/saibabooj/Desktop/Malware Analysis 2/DetectIQ/data/rules/sigma
+Initialized SigmaLLM
+Initializing DjangoRuleRepository
+Initialized YaraLLM with rule directory: /Users/saibabooj/Desktop/Malware Analysis 2/DetectIQ/data/rules/yara
+Initialized YaraLLM
+Initializing DjangoRuleRepository
+Initialized SnortLLM with rule directory: /Users/saibabooj/Desktop/Malware Analysis 2/DetectIQ/data/rules/snort
+Initialized SnortLLM
+"GET /app-config/check-rule-packages/ HTTP/1.1" 200 318
+Initializing DjangoRuleRepository
+Initialized SigmaLLM with rule directory: /Users/saibabooj/Desktop/Malware Analysis 2/DetectIQ/data/rules/sigma
+Initialized SigmaLLM
+Initializing DjangoRuleRepository
+Initialized YaraLLM with rule directory: /Users/saibabooj/Desktop/Malware Analysis 2/DetectIQ/data/rules/yara
+Initialized YaraLLM
+Initializing DjangoRuleRepository
+Initialized SnortLLM with rule directory: /Users/saibabooj/Desktop/Malware Analysis 2/DetectIQ/data/rules/snort
+Initialized SnortLLM
+"GET /app-config/check-rule-packages/ HTTP/1.1" 200 318
+Initializing DjangoRuleRepository
+Initializing ConfigManager. Config file: /Users/saibabooj/Desktop/Malware Analysis 2/DetectIQ/config.json
+"GET /rules/?page=1&page_size=10&enabled=true HTTP/1.1" 200 11038
+Watching for file changes with StatReloader
+Initializing DjangoRuleRepository
+Initializing ConfigManager. Config file: /Users/saibabooj/Desktop/Malware Analysis 2/DetectIQ/config.json
+"GET /rules/?page=1&page_size=10&enabled=true HTTP/1.1" 200 11038
+Initializing DjangoRuleRepository
+Initializing ConfigManager. Config file: /Users/saibabooj/Desktop/Malware Analysis 2/DetectIQ/config.json
+"GET /rules/?page=1&page_size=10&enabled=true HTTP/1.1" 200 11038
+Watching for file changes with StatReloader
+Initializing DjangoRuleRepository
+Initializing ConfigManager. Config file: /Users/saibabooj/Desktop/Malware Analysis 2/DetectIQ/config.json
+"GET / HTTP/1.1" 200 5226
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+"GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+"GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+"GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+"GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+"GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+Initializing DjangoRuleRepository
+Initializing ConfigManager. Config file: /Users/saibabooj/Desktop/Malware Analysis 2/DetectIQ/config.json
+"GET /rules/?page=1&page_size=10&enabled=true HTTP/1.1" 200 11038
+"GET /rules/?page=1&page_size=10&enabled=true HTTP/1.1" 200 11038
+Initializing DjangoRuleRepository
+Initializing ConfigManager. Config file: /Users/saibabooj/Desktop/Malware Analysis 2/DetectIQ/config.json
+"GET /rules/?page=1&page_size=10&enabled=true HTTP/1.1" 200 11038
+Initializing DjangoRuleRepository
+Initializing ConfigManager. Config file: /Users/saibabooj/Desktop/Malware Analysis 2/DetectIQ/config.json
+Error initializing sigma vector store: Error in faiss::FileIOReader::FileIOReader(const char *) at /Users/runner/work/faiss-wheels/faiss-wheels/faiss/faiss/impl/io.cpp:68: Error: 'f' failed: could not open /Users/saibabooj/Desktop/Malware Analysis 2/DetectIQ/data/vector_stores/sigma/index.faiss for reading: No such file or directory
+Error initializing yara vector store: Error in faiss::FileIOReader::FileIOReader(const char *) at /Users/runner/work/faiss-wheels/faiss-wheels/faiss/faiss/impl/io.cpp:68: Error: 'f' failed: could not open /Users/saibabooj/Desktop/Malware Analysis 2/DetectIQ/data/vector_stores/yara/index.faiss for reading: No such file or directory
+Error initializing snort vector store: Error in faiss::FileIOReader::FileIOReader(const char *) at /Users/runner/work/faiss-wheels/faiss-wheels/faiss/faiss/impl/io.cpp:68: Error: 'f' failed: could not open /Users/saibabooj/Desktop/Malware Analysis 2/DetectIQ/data/vector_stores/snort/index.faiss for reading: No such file or directory
+Rule generation failed: {'error': 'Sigma vector store not initialized'}
+Bad Request: /rule-creator/create-with-llm/
+"POST /rule-creator/create-with-llm/ HTTP/1.1" 400 46
+Initializing DjangoRuleRepository
+"GET /app-config/check-vectorstores/ HTTP/1.1" 200 75
+"GET /app-config/get-config/ HTTP/1.1" 200 832
+"GET /app-config/check-vectorstores/ HTTP/1.1" 200 75
+Initialized SigmaLLM with rule directory: /Users/saibabooj/Desktop/Malware Analysis 2/DetectIQ/data/rules/sigma
+Initialized SigmaLLM
+Initializing DjangoRuleRepository
+Initialized YaraLLM with rule directory: /Users/saibabooj/Desktop/Malware Analysis 2/DetectIQ/data/rules/yara
+Initialized YaraLLM
+Initializing DjangoRuleRepository
+Initialized SnortLLM with rule directory: /Users/saibabooj/Desktop/Malware Analysis 2/DetectIQ/data/rules/snort
+Initialized SnortLLM
+"GET /app-config/check-rule-packages/ HTTP/1.1" 200 318
+Initializing DjangoRuleRepository
+Initialized SigmaLLM with rule directory: /Users/saibabooj/Desktop/Malware Analysis 2/DetectIQ/data/rules/sigma
+Initialized SigmaLLM
+Initializing DjangoRuleRepository
+Initialized YaraLLM with rule directory: /Users/saibabooj/Desktop/Malware Analysis 2/DetectIQ/data/rules/yara
+Initialized YaraLLM
+Initializing DjangoRuleRepository
+Initialized SnortLLM with rule directory: /Users/saibabooj/Desktop/Malware Analysis 2/DetectIQ/data/rules/snort
+Initialized SnortLLM
+"GET /app-config/check-rule-packages/ HTTP/1.1" 200 318
+Initializing DjangoRuleRepository
+Initializing ConfigManager. Config file: /Users/saibabooj/Desktop/Malware Analysis 2/DetectIQ/config.json
+"GET /rules/?page=1&page_size=10&enabled=true HTTP/1.1" 200 11038
+Initializing DjangoRuleRepository
+Initializing ConfigManager. Config file: /Users/saibabooj/Desktop/Malware Analysis 2/DetectIQ/config.json
+"GET /rules/?page=1&page_size=10&enabled=true HTTP/1.1" 200 11038
+Initializing DjangoRuleRepository
+Initializing ConfigManager. Config file: /Users/saibabooj/Desktop/Malware Analysis 2/DetectIQ/config.json
+"GET /rules/?page=1&page_size=10&enabled=true HTTP/1.1" 200 11038
+Initializing DjangoRuleRepository
+Initializing ConfigManager. Config file: /Users/saibabooj/Desktop/Malware Analysis 2/DetectIQ/config.json
+"GET /rules/?page=1&page_size=10&enabled=true HTTP/1.1" 200 11038
+Initializing DjangoRuleRepository
+Initializing ConfigManager. Config file: /Users/saibabooj/Desktop/Malware Analysis 2/DetectIQ/config.json
+"GET /rules/?page=1&page_size=10&enabled=true HTTP/1.1" 200 11038
+Initializing DjangoRuleRepository
+Initializing ConfigManager. Config file: /Users/saibabooj/Desktop/Malware Analysis 2/DetectIQ/config.json
+"GET /rules/?page=1&page_size=10&enabled=true HTTP/1.1" 200 11038
+Initializing DjangoRuleRepository
+Initializing ConfigManager. Config file: /Users/saibabooj/Desktop/Malware Analysis 2/DetectIQ/config.json
+"GET /rules/?page=1&page_size=10&enabled=true HTTP/1.1" 200 11038
+Initializing DjangoRuleRepository
+"GET /app-config/get-config/ HTTP/1.1" 200 832
+"GET /app-config/check-vectorstores/ HTTP/1.1" 200 75
+"GET /app-config/check-vectorstores/ HTTP/1.1" 200 75
+Initialized SigmaLLM with rule directory: /Users/saibabooj/Desktop/Malware Analysis 2/DetectIQ/data/rules/sigma
+Initialized SigmaLLM
+Initializing DjangoRuleRepository
+Initialized YaraLLM with rule directory: /Users/saibabooj/Desktop/Malware Analysis 2/DetectIQ/data/rules/yara
+Initialized YaraLLM
+Initializing DjangoRuleRepository
+Initialized SnortLLM with rule directory: /Users/saibabooj/Desktop/Malware Analysis 2/DetectIQ/data/rules/snort
+Initialized SnortLLM
+"GET /app-config/check-rule-packages/ HTTP/1.1" 200 318
+Initializing DjangoRuleRepository
+Initialized SigmaLLM with rule directory: /Users/saibabooj/Desktop/Malware Analysis 2/DetectIQ/data/rules/sigma
+Initialized SigmaLLM
+Initializing DjangoRuleRepository
+Initialized YaraLLM with rule directory: /Users/saibabooj/Desktop/Malware Analysis 2/DetectIQ/data/rules/yara
+Initialized YaraLLM
+Initializing DjangoRuleRepository
+Initialized SnortLLM with rule directory: /Users/saibabooj/Desktop/Malware Analysis 2/DetectIQ/data/rules/snort
+Initialized SnortLLM
+"GET /app-config/check-rule-packages/ HTTP/1.1" 200 318

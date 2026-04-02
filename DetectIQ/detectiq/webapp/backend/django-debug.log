@@ -1,0 +1,35 @@
+Watching for file changes with StatReloader
+Initializing DjangoRuleRepository
+Initializing ConfigManager. Config file: /Users/saibabooj/Desktop/DetectIQ/config.json
+"GET /rules/?page=1&page_size=10&enabled=true HTTP/1.1" 200 11038
+Initializing DjangoRuleRepository
+Initializing ConfigManager. Config file: /Users/saibabooj/Desktop/DetectIQ/config.json
+"GET /rules/?page=1&page_size=10&enabled=true&integration=splunk HTTP/1.1" 200 52
+Initializing DjangoRuleRepository
+Initializing ConfigManager. Config file: /Users/saibabooj/Desktop/DetectIQ/config.json
+"GET /rules/?page=1&page_size=10&enabled=true HTTP/1.1" 200 11038
+Watching for file changes with StatReloader
+Initializing DjangoRuleRepository
+"GET /app-config/get-config/ HTTP/1.1" 200 699
+"GET /app-config/check-vectorstores/ HTTP/1.1" 200 75
+"GET /app-config/check-vectorstores/ HTTP/1.1" 200 75
+Initialized SigmaLLM with rule directory: /Users/saibabooj/Desktop/DetectIQ/data/rules/sigma
+Initialized SigmaLLM
+Initializing DjangoRuleRepository
+Initialized YaraLLM with rule directory: /Users/saibabooj/Desktop/DetectIQ/data/rules/yara
+Initialized YaraLLM
+Initializing DjangoRuleRepository
+Initialized SnortLLM with rule directory: /Users/saibabooj/Desktop/DetectIQ/data/rules/snort
+Initialized SnortLLM
+"GET /app-config/check-rule-packages/ HTTP/1.1" 200 318
+Initializing DjangoRuleRepository
+Initialized SigmaLLM with rule directory: /Users/saibabooj/Desktop/DetectIQ/data/rules/sigma
+Initialized SigmaLLM
+Initializing DjangoRuleRepository
+Initialized YaraLLM with rule directory: /Users/saibabooj/Desktop/DetectIQ/data/rules/yara
+Initialized YaraLLM
+Initializing DjangoRuleRepository
+Initialized SnortLLM with rule directory: /Users/saibabooj/Desktop/DetectIQ/data/rules/snort
+Initialized SnortLLM
+"GET /app-config/check-rule-packages/ HTTP/1.1" 200 318
+Watching for file changes with StatReloader
