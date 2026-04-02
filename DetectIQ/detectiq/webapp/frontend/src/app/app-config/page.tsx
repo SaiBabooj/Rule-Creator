@@ -10,7 +10,6 @@ import { Settings } from '@/types/settings';
 import Notification from '@/components/common/Notification';
 import PageLayout from '@/components/layout/PageLayout';
 import DirectoriesSection from '@/components/app-config/DirectoriesSection';
-import IntegrationsSection from '@/components/app-config/IntegrationsSection';
 import OpenAISection from '@/components/app-config/OpenAISection';
 import { LLM_MODELS, embedding_modelS } from '@/components/app-config/OpenAISection';
 
@@ -110,18 +109,18 @@ export default function SettingsPage() {
         <Grid container spacing={3}>
           {/* OpenAI Settings */}
           <Grid item xs={12}>
-            <OpenAISection 
+            <OpenAISection
               apiKey={settings.openai_api_key}
               llmModel={settings.llm_model}
               embeddingsModel={settings.embedding_model}
               temperature={settings.temperature}
-              onChange={(field, value) => 
-                setSettings({ 
-                  ...settings, 
-                  [field === 'apiKey' ? 'openai_api_key' : 
-                   field === 'llmModel' ? 'llm_model' : 
-                   field === 'embeddingsModel' ? 'embedding_model' :
-                   'temperature']: value 
+              onChange={(field, value) =>
+                setSettings({
+                  ...settings,
+                  [field === 'apiKey' ? 'openai_api_key' :
+                    field === 'llmModel' ? 'llm_model' :
+                      field === 'embeddingsModel' ? 'embedding_model' :
+                        'temperature']: value
                 })
               }
             />
@@ -134,19 +133,19 @@ export default function SettingsPage() {
               vectorStoreDirectories={settings.vector_store_directories}
               sigmaPackageType={settings.sigma_package_type}
               yaraPackageType={settings.yara_package_type}
-              onSigmaPackageTypeChange={(value) => 
+              onSigmaPackageTypeChange={(value) =>
                 setSettings({
                   ...settings,
                   sigma_package_type: value
                 })
               }
-              onYaraPackageTypeChange={(value) => 
+              onYaraPackageTypeChange={(value) =>
                 setSettings({
                   ...settings,
                   yara_package_type: value
                 })
               }
-              onRuleDirectoryChange={(type, value) => 
+              onRuleDirectoryChange={(type, value) =>
                 setSettings({
                   ...settings,
                   rule_directories: { ...settings.rule_directories, [type]: value }
@@ -161,24 +160,7 @@ export default function SettingsPage() {
             />
           </Grid>
 
-          {/* Integrations */}
-          <Grid item xs={12}>
-            <IntegrationsSection
-              integrations={settings.integrations}
-              onIntegrationChange={(integration, field, value) =>
-                setSettings({
-                  ...settings,
-                  integrations: {
-                    ...settings.integrations,
-                    [integration as keyof typeof settings.integrations]: {
-                      ...settings.integrations[integration as keyof typeof settings.integrations],
-                      [field]: value,
-                    },
-                  },
-                })
-              }
-            />
-          </Grid>
+
         </Grid>
 
         {/* Save Button */}
