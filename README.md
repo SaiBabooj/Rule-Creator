@@ -4,8 +4,8 @@ Welcome to the **Rule Creator** repository, an AI-powered security rule manageme
 
 This repository contains two primary modules/environments:
 
-1. **Conceptual Replication on A intresting project **
-   An AI-powered security rule management platform focused on generating, testing, and managing threat detection rules efficiently. It includes an interactive UI and Python module to automate security tasks utilizing OpenAI's LLMs. 
+1. ** Conceptual Replication on A intresting project **
+   An AI-powered security rule management platform focused on generating, testing, and managing threat detection rules efficiently. It includes an interactive UI and Python module to automate security tasks utilizing OpenAI's LLM's. 
    
 2. **Malware Analysis**: 
    A specialized environment based on DetectIQ designed for deep diving into static analysis. It supports uploading malware samples (like `.exe`) and `.pcap` files for automated analysis, automatically mapping context to YARA and Snort rule creation.
