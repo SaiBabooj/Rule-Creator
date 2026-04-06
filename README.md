@@ -4,7 +4,7 @@ Welcome to the **Rule Creator** repository, an AI-powered security rule manageme
 
 This repository contains two primary modules/environments:
 
-1. **DetectIQ**: 
+1. **Conceptual Replication on A intresting project **
    An AI-powered security rule management platform focused on generating, testing, and managing threat detection rules efficiently. It includes an interactive UI and Python module to automate security tasks utilizing OpenAI's LLMs. 
    
 2. **Malware Analysis**: 
